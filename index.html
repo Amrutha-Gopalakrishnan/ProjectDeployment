@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadMee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <h1>ReadMee</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Rich Dad Poor Dad is a 1997 book written by Robert T. Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ).</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+
+    <div class="extra-popup">
+        <h1>Add Book</h1>
+        <form>
+            <input type="text" placeholder="Book Name" id="title">
+            <input type="text" placeholder="Author Name" id="author">
+            <textarea placeholder="Short description" id="book-description"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel">Cancel</button>
+        </form>
+    </div>
+
+    
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="demo.js"></script>
+</body>
+</html>

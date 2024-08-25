@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container{
+   padding: 10px;
+}
+
+.book-container{
+    background-color: black;
+    color: rgb(255, 120, 2);
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container h2{
+    color:white
+}
+
+.book-container button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.add-button{
+    background-color: red;
+    color: black;
+    font-size: 40px;
+    border-radius: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    border: none;
+}
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.extra-popup{
+    background-color: red;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+}
+
+.extra-popup input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.extra-popup textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.extra-popup input::placeholder{
+    color: black;
+}
+
+.extra-popup textarea::placeholder{
+    color: black;
+}
+
+.extra-popup button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 5px;
+}
+
+.extra-popup input:focus{
+    outline: none;
+}
+
+.extra-popup textarea:focus{
+    outline: none;
+}
