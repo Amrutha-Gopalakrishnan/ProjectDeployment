@@ -126,10 +126,11 @@
 }
 
 @media screen and (max-width:600px){
-     .extra-popup{
-        width: 10%;
+    .extra-popup{
+        width: 5%;
+        left: 0;
+        padding: 5%;
     }
-    
     .navbar,.container,.book-container,.book-container h2,.book-container button,.add-button,.popup-overlay,.extra-popup,.extra-popup input,.extra-popup textarea,.extra-popup input button{
         width: fit-content;
     }
